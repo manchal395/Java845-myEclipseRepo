@@ -1,0 +1,124 @@
+    body {
+        background-color: lightgray;
+        font-family: 'Mulish', sans-serif;
+    }
+    .header {
+        text-align: center;
+        padding: 15px;
+        background-color: white;
+    }
+    .topnav {
+        background-color: darkblue;
+        overflow: hidden;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+    .topnav ul li{
+        display: block;
+        float: left;   
+    }
+    .topnav a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        text-align: center;
+    }
+    .topnov a:focus, 
+    	a:hover {
+    	font-size: large;
+    }
+    .topnav .image {
+        display: inline-block;
+        margin-right: 15px;
+        max-height: 50px;
+    }
+    .card {
+        overflow: visible;
+        padding: 40px;
+        background-color: white;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .card2 h1 {
+        text-align: center;
+    }
+    .card2 div {
+        margin-top: -50px;
+        display: inline-block;
+        padding: 20px;
+        outline: none;
+    }
+    .card form{
+        padding: 20px;
+        width: 330px;
+        margin: auto;
+    }
+    .container {
+        overflow: hidden;
+    }
+    .container label {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .container input {
+        display: inline-block;
+        width: 93%;
+        padding-bottom: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .container input:focus,
+        input:hover {
+            border-color: darkblue;
+        }
+    .container input:focus {
+        outline: none;
+        border-color: darkblue;
+        box-shadow: 0 0 4px darkblue;
+    }
+    .container button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+        border: 1px solid;
+    }
+    .container button:focus,
+        button:hover {
+            font-size: large;
+            cursor: pointer;
+        }
+    .container .checkboxLabel{
+        width: 5%;
+        white-space: nowrap; 
+    }
+    
+    .container .cancelbtn {
+        float: left;
+        background-color: red;
+        width: 30%;
+        margin: auto;
+        border: 1px solid;
+        padding: 10px;
+        margin-left: -10px;
+    }
+    .container .psw {
+        float: right;
+        padding: 10px;
+        margin-right: -10px;
+    }
+    .footer {
+        text-align: center;
+        background-color: darkgrey;
+        height: 80px;
+        padding-top: 30px;
+        font-size: large;
+    }
