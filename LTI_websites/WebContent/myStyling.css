@@ -78,8 +78,8 @@
         }
     .container input:focus {
         outline: none;
-        border-color: darkblue;
-        box-shadow: 0 0 4px darkblue;
+        border-color: red;
+    	box-shadow: 0 0 4px red;
     }
     .container button {
         margin-top: 10px;
